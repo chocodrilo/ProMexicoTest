@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A4234641AEF2236003D70A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4234631AEF2236003D70A0 /* main.m */; };
+		6A4234671AEF2236003D70A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4234661AEF2236003D70A0 /* AppDelegate.m */; };
+		6A42346F1AEF2236003D70A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A42346E1AEF2236003D70A0 /* Images.xcassets */; };
+		6A4234721AEF2236003D70A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A4234701AEF2236003D70A0 /* LaunchScreen.xib */; };
+		6A42347E1AEF2236003D70A0 /* PromexicoTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A42347D1AEF2236003D70A0 /* PromexicoTestTests.m */; };
+		6A42348B1AEF22B5003D70A0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A42348A1AEF22B5003D70A0 /* LoginViewController.m */; };
+		6A42348D1AEF22C5003D70A0 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A42348C1AEF22C5003D70A0 /* LoginViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A4234781AEF2236003D70A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A4234561AEF2236003D70A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A42345D1AEF2236003D70A0;
+			remoteInfo = PromexicoTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A42345E1AEF2236003D70A0 /* PromexicoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PromexicoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4234621AEF2236003D70A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A4234631AEF2236003D70A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A4234651AEF2236003D70A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A4234661AEF2236003D70A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A42346E1AEF2236003D70A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6A4234711AEF2236003D70A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6A4234771AEF2236003D70A0 /* PromexicoTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PromexicoTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A42347C1AEF2236003D70A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A42347D1AEF2236003D70A0 /* PromexicoTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromexicoTestTests.m; sourceTree = "<group>"; };
+		6A4234891AEF22B5003D70A0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		6A42348A1AEF22B5003D70A0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		6A42348C1AEF22C5003D70A0 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A42345B1AEF2236003D70A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4234741AEF2236003D70A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A4234551AEF2235003D70A0 = {
+			isa = PBXGroup;
+			children = (
+				6A4234601AEF2236003D70A0 /* PromexicoTest */,
+				6A42347A1AEF2236003D70A0 /* PromexicoTestTests */,
+				6A42345F1AEF2236003D70A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A42345F1AEF2236003D70A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A42345E1AEF2236003D70A0 /* PromexicoTest.app */,
+				6A4234771AEF2236003D70A0 /* PromexicoTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A4234601AEF2236003D70A0 /* PromexicoTest */ = {
+			isa = PBXGroup;
+			children = (
+				6A4234651AEF2236003D70A0 /* AppDelegate.h */,
+				6A4234661AEF2236003D70A0 /* AppDelegate.m */,
+				6A4234871AEF2255003D70A0 /* Controllers */,
+				6A42346E1AEF2236003D70A0 /* Images.xcassets */,
+				6A4234701AEF2236003D70A0 /* LaunchScreen.xib */,
+				6A4234611AEF2236003D70A0 /* Supporting Files */,
+			);
+			path = PromexicoTest;
+			sourceTree = "<group>";
+		};
+		6A4234611AEF2236003D70A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A4234621AEF2236003D70A0 /* Info.plist */,
+				6A4234631AEF2236003D70A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A42347A1AEF2236003D70A0 /* PromexicoTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A42347D1AEF2236003D70A0 /* PromexicoTestTests.m */,
+				6A42347B1AEF2236003D70A0 /* Supporting Files */,
+			);
+			path = PromexicoTestTests;
+			sourceTree = "<group>";
+		};
+		6A42347B1AEF2236003D70A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A42347C1AEF2236003D70A0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A4234871AEF2255003D70A0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6A4234881AEF225F003D70A0 /* LoginViewController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6A4234881AEF225F003D70A0 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6A4234891AEF22B5003D70A0 /* LoginViewController.h */,
+				6A42348A1AEF22B5003D70A0 /* LoginViewController.m */,
+				6A42348C1AEF22C5003D70A0 /* LoginViewController.xib */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A42345D1AEF2236003D70A0 /* PromexicoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A4234811AEF2236003D70A0 /* Build configuration list for PBXNativeTarget "PromexicoTest" */;
+			buildPhases = (
+				6A42345A1AEF2236003D70A0 /* Sources */,
+				6A42345B1AEF2236003D70A0 /* Frameworks */,
+				6A42345C1AEF2236003D70A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PromexicoTest;
+			productName = PromexicoTest;
+			productReference = 6A42345E1AEF2236003D70A0 /* PromexicoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A4234761AEF2236003D70A0 /* PromexicoTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A4234841AEF2236003D70A0 /* Build configuration list for PBXNativeTarget "PromexicoTestTests" */;
+			buildPhases = (
+				6A4234731AEF2236003D70A0 /* Sources */,
+				6A4234741AEF2236003D70A0 /* Frameworks */,
+				6A4234751AEF2236003D70A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A4234791AEF2236003D70A0 /* PBXTargetDependency */,
+			);
+			name = PromexicoTestTests;
+			productName = PromexicoTestTests;
+			productReference = 6A4234771AEF2236003D70A0 /* PromexicoTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A4234561AEF2236003D70A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Chocodrilo INC";
+				TargetAttributes = {
+					6A42345D1AEF2236003D70A0 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = S8A5D3KV3Z;
+					};
+					6A4234761AEF2236003D70A0 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 6A42345D1AEF2236003D70A0;
+					};
+				};
+			};
+			buildConfigurationList = 6A4234591AEF2236003D70A0 /* Build configuration list for PBXProject "PromexicoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A4234551AEF2235003D70A0;
+			productRefGroup = 6A42345F1AEF2236003D70A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A42345D1AEF2236003D70A0 /* PromexicoTest */,
+				6A4234761AEF2236003D70A0 /* PromexicoTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A42345C1AEF2236003D70A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4234721AEF2236003D70A0 /* LaunchScreen.xib in Resources */,
+				6A42346F1AEF2236003D70A0 /* Images.xcassets in Resources */,
+				6A42348D1AEF22C5003D70A0 /* LoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4234751AEF2236003D70A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A42345A1AEF2236003D70A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4234671AEF2236003D70A0 /* AppDelegate.m in Sources */,
+				6A4234641AEF2236003D70A0 /* main.m in Sources */,
+				6A42348B1AEF22B5003D70A0 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4234731AEF2236003D70A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A42347E1AEF2236003D70A0 /* PromexicoTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A4234791AEF2236003D70A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A42345D1AEF2236003D70A0 /* PromexicoTest */;
+			targetProxy = 6A4234781AEF2236003D70A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A4234701AEF2236003D70A0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A4234711AEF2236003D70A0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A42347F1AEF2236003D70A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A4234801AEF2236003D70A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A4234821AEF2236003D70A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PromexicoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6A4234831AEF2236003D70A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PromexicoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6A4234851AEF2236003D70A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PromexicoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PromexicoTest.app/PromexicoTest";
+			};
+			name = Debug;
+		};
+		6A4234861AEF2236003D70A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PromexicoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PromexicoTest.app/PromexicoTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A4234591AEF2236003D70A0 /* Build configuration list for PBXProject "PromexicoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A42347F1AEF2236003D70A0 /* Debug */,
+				6A4234801AEF2236003D70A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A4234811AEF2236003D70A0 /* Build configuration list for PBXNativeTarget "PromexicoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4234821AEF2236003D70A0 /* Debug */,
+				6A4234831AEF2236003D70A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A4234841AEF2236003D70A0 /* Build configuration list for PBXNativeTarget "PromexicoTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4234851AEF2236003D70A0 /* Debug */,
+				6A4234861AEF2236003D70A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A4234561AEF2236003D70A0 /* Project object */;
+}
