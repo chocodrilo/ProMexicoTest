@@ -14,6 +14,28 @@
 		6A42347E1AEF2236003D70A0 /* PromexicoTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A42347D1AEF2236003D70A0 /* PromexicoTestTests.m */; };
 		6A42348B1AEF22B5003D70A0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A42348A1AEF22B5003D70A0 /* LoginViewController.m */; };
 		6A42348D1AEF22C5003D70A0 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A42348C1AEF22C5003D70A0 /* LoginViewController.xib */; };
+		6A4234951AEF290A003D70A0 /* Logo_Promexico.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A4234941AEF290A003D70A0 /* Logo_Promexico.jpg */; };
+		6A42349A1AEF2999003D70A0 /* SQLiteDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4234991AEF2999003D70A0 /* SQLiteDataSource.m */; };
+		6A42349D1AEF29B4003D70A0 /* DatabaseConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A42349C1AEF29B4003D70A0 /* DatabaseConstants.m */; };
+		6A4234A11AEF29DE003D70A0 /* OfficesDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4234A01AEF29DE003D70A0 /* OfficesDataSource.m */; };
+		6A4234A61AEF2A40003D70A0 /* WSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4234A51AEF2A40003D70A0 /* WSConstants.m */; };
+		6A4234A91AEF2A56003D70A0 /* PromexicoSynchronizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4234A81AEF2A56003D70A0 /* PromexicoSynchronizationManager.m */; };
+		6ACDF8971AEF317E006A13A3 /* Promexico.db in Resources */ = {isa = PBXBuildFile; fileRef = 6ACDF8961AEF317E006A13A3 /* Promexico.db */; };
+		6ACDF89A1AEF3257006A13A3 /* SurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDF8991AEF3257006A13A3 /* SurveyViewController.m */; };
+		6ACDF89C1AEF326B006A13A3 /* SurveyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ACDF89B1AEF326B006A13A3 /* SurveyViewController.xib */; };
+		6ACDF89E1AEF38EF006A13A3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ACDF89D1AEF38EF006A13A3 /* Localizable.strings */; };
+		6ACDF8A31AEF409C006A13A3 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDF8A21AEF409C006A13A3 /* Reachability.m */; };
+		6ACDF8A61AEF412D006A13A3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACDF8A51AEF412D006A13A3 /* MapKit.framework */; };
+		6ACDF8AA1AEF41C5006A13A3 /* AnimationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDF8A91AEF41C5006A13A3 /* AnimationHelper.m */; };
+		6ACDF8AE1AEF428B006A13A3 /* OfficeAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDF8AD1AEF428B006A13A3 /* OfficeAnnotation.m */; };
+		6ACDF8B01AEF4DA1006A13A3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACDF8AF1AEF4DA1006A13A3 /* MobileCoreServices.framework */; };
+		6ACDF8BC1AEF5B66006A13A3 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDF8B41AEF5B66006A13A3 /* ioapi.c */; };
+		6ACDF8BD1AEF5B66006A13A3 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDF8B61AEF5B66006A13A3 /* mztools.c */; };
+		6ACDF8BE1AEF5B66006A13A3 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDF8B81AEF5B66006A13A3 /* unzip.c */; };
+		6ACDF8BF1AEF5B66006A13A3 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDF8BA1AEF5B66006A13A3 /* zip.c */; };
+		6ACDF8C21AEF5B6D006A13A3 /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDF8C11AEF5B6D006A13A3 /* ZipArchive.mm */; };
+		6ACDF8C41AEF5B7C006A13A3 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACDF8C31AEF5B7C006A13A3 /* libz.1.2.5.dylib */; };
+		A345F3819C88220E93B7A6FE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC966A6803F45EA0FB449CBF /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +62,44 @@
 		6A4234891AEF22B5003D70A0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		6A42348A1AEF22B5003D70A0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		6A42348C1AEF22C5003D70A0 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		6A4234941AEF290A003D70A0 /* Logo_Promexico.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo_Promexico.jpg; sourceTree = "<group>"; };
+		6A4234981AEF2999003D70A0 /* SQLiteDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteDataSource.h; sourceTree = "<group>"; };
+		6A4234991AEF2999003D70A0 /* SQLiteDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteDataSource.m; sourceTree = "<group>"; };
+		6A42349C1AEF29B4003D70A0 /* DatabaseConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseConstants.m; sourceTree = "<group>"; };
+		6A42349F1AEF29DE003D70A0 /* OfficesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfficesDataSource.h; sourceTree = "<group>"; };
+		6A4234A01AEF29DE003D70A0 /* OfficesDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfficesDataSource.m; sourceTree = "<group>"; };
+		6A4234A51AEF2A40003D70A0 /* WSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSConstants.m; sourceTree = "<group>"; };
+		6A4234A71AEF2A56003D70A0 /* PromexicoSynchronizationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromexicoSynchronizationManager.h; sourceTree = "<group>"; };
+		6A4234A81AEF2A56003D70A0 /* PromexicoSynchronizationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromexicoSynchronizationManager.m; sourceTree = "<group>"; };
+		6ACDF8961AEF317E006A13A3 /* Promexico.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Promexico.db; sourceTree = "<group>"; };
+		6ACDF8981AEF3257006A13A3 /* SurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyViewController.h; sourceTree = "<group>"; };
+		6ACDF8991AEF3257006A13A3 /* SurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyViewController.m; sourceTree = "<group>"; };
+		6ACDF89B1AEF326B006A13A3 /* SurveyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SurveyViewController.xib; sourceTree = "<group>"; };
+		6ACDF89D1AEF38EF006A13A3 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		6ACDF89F1AEF4036006A13A3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6ACDF8A11AEF409C006A13A3 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		6ACDF8A21AEF409C006A13A3 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		6ACDF8A51AEF412D006A13A3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6ACDF8A81AEF41C5006A13A3 /* AnimationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationHelper.h; sourceTree = "<group>"; };
+		6ACDF8A91AEF41C5006A13A3 /* AnimationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationHelper.m; sourceTree = "<group>"; };
+		6ACDF8AC1AEF428B006A13A3 /* OfficeAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfficeAnnotation.h; sourceTree = "<group>"; };
+		6ACDF8AD1AEF428B006A13A3 /* OfficeAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfficeAnnotation.m; sourceTree = "<group>"; };
+		6ACDF8AF1AEF4DA1006A13A3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6ACDF8B31AEF5B66006A13A3 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		6ACDF8B41AEF5B66006A13A3 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		6ACDF8B51AEF5B66006A13A3 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		6ACDF8B61AEF5B66006A13A3 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		6ACDF8B71AEF5B66006A13A3 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		6ACDF8B81AEF5B66006A13A3 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		6ACDF8B91AEF5B66006A13A3 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		6ACDF8BA1AEF5B66006A13A3 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		6ACDF8BB1AEF5B66006A13A3 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		6ACDF8C01AEF5B6D006A13A3 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		6ACDF8C11AEF5B6D006A13A3 /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
+		6ACDF8C31AEF5B7C006A13A3 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		B7C031E832DC29C6722AA94B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C4F53161D333FEC857FCDD97 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DC966A6803F45EA0FB449CBF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +107,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ACDF8C41AEF5B7C006A13A3 /* libz.1.2.5.dylib in Frameworks */,
+				6ACDF8B01AEF4DA1006A13A3 /* MobileCoreServices.framework in Frameworks */,
+				6ACDF8A61AEF412D006A13A3 /* MapKit.framework in Frameworks */,
+				A345F3819C88220E93B7A6FE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +124,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01173D0EF1ABF3E43D70518C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4F53161D333FEC857FCDD97 /* Pods.debug.xcconfig */,
+				B7C031E832DC29C6722AA94B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6A4234551AEF2235003D70A0 = {
 			isa = PBXGroup;
 			children = (
 				6A4234601AEF2236003D70A0 /* PromexicoTest */,
 				6A42347A1AEF2236003D70A0 /* PromexicoTestTests */,
 				6A42345F1AEF2236003D70A0 /* Products */,
+				01173D0EF1ABF3E43D70518C /* Pods */,
+				F1C20F7E54E508D3980E5E42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,7 +158,12 @@
 			children = (
 				6A4234651AEF2236003D70A0 /* AppDelegate.h */,
 				6A4234661AEF2236003D70A0 /* AppDelegate.m */,
-				6A4234871AEF2255003D70A0 /* Controllers */,
+				6A4234971AEF2984003D70A0 /* DataAccess */,
+				6A4234871AEF2255003D70A0 /* ViewControllers */,
+				6ACDF8A71AEF41B3006A13A3 /* Helpers */,
+				6ACDF8AB1AEF4271006A13A3 /* Annotations */,
+				6A42348E1AEF2630003D70A0 /* Resources */,
+				6ACDF8A41AEF40A0006A13A3 /* External */,
 				6A42346E1AEF2236003D70A0 /* Images.xcassets */,
 				6A4234701AEF2236003D70A0 /* LaunchScreen.xib */,
 				6A4234611AEF2236003D70A0 /* Supporting Files */,
@@ -117,12 +197,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6A4234871AEF2255003D70A0 /* Controllers */ = {
+		6A4234871AEF2255003D70A0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				6A4234881AEF225F003D70A0 /* LoginViewController */,
+				6ACDF8951AEF3040006A13A3 /* SurveyViewController */,
 			);
-			name = Controllers;
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 		6A4234881AEF225F003D70A0 /* LoginViewController */ = {
@@ -135,6 +216,171 @@
 			name = LoginViewController;
 			sourceTree = "<group>";
 		};
+		6A42348E1AEF2630003D70A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A4234961AEF290E003D70A0 /* Images */,
+				6A4234901AEF263A003D70A0 /* DB */,
+				6A42348F1AEF2635003D70A0 /* Localization */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6A42348F1AEF2635003D70A0 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				6ACDF89D1AEF38EF006A13A3 /* Localizable.strings */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		6A4234901AEF263A003D70A0 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				6ACDF8961AEF317E006A13A3 /* Promexico.db */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		6A4234961AEF290E003D70A0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6A4234941AEF290A003D70A0 /* Logo_Promexico.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		6A4234971AEF2984003D70A0 /* DataAccess */ = {
+			isa = PBXGroup;
+			children = (
+				6A4234A31AEF2A19003D70A0 /* Synchronization */,
+				6A4234A21AEF2A0D003D70A0 /* SQL */,
+			);
+			name = DataAccess;
+			sourceTree = "<group>";
+		};
+		6A42349B1AEF299E003D70A0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				6A42349C1AEF29B4003D70A0 /* DatabaseConstants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		6A42349E1AEF29C8003D70A0 /* OfficesDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				6A42349F1AEF29DE003D70A0 /* OfficesDataSource.h */,
+				6A4234A01AEF29DE003D70A0 /* OfficesDataSource.m */,
+			);
+			name = OfficesDataSource;
+			sourceTree = "<group>";
+		};
+		6A4234A21AEF2A0D003D70A0 /* SQL */ = {
+			isa = PBXGroup;
+			children = (
+				6A4234981AEF2999003D70A0 /* SQLiteDataSource.h */,
+				6A4234991AEF2999003D70A0 /* SQLiteDataSource.m */,
+				6A42349B1AEF299E003D70A0 /* Constants */,
+				6A42349E1AEF29C8003D70A0 /* OfficesDataSource */,
+			);
+			name = SQL;
+			sourceTree = "<group>";
+		};
+		6A4234A31AEF2A19003D70A0 /* Synchronization */ = {
+			isa = PBXGroup;
+			children = (
+				6A4234A71AEF2A56003D70A0 /* PromexicoSynchronizationManager.h */,
+				6A4234A81AEF2A56003D70A0 /* PromexicoSynchronizationManager.m */,
+				6A4234A41AEF2A23003D70A0 /* Constants */,
+			);
+			name = Synchronization;
+			sourceTree = "<group>";
+		};
+		6A4234A41AEF2A23003D70A0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				6A4234A51AEF2A40003D70A0 /* WSConstants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		6ACDF8951AEF3040006A13A3 /* SurveyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6ACDF8981AEF3257006A13A3 /* SurveyViewController.h */,
+				6ACDF8991AEF3257006A13A3 /* SurveyViewController.m */,
+				6ACDF89B1AEF326B006A13A3 /* SurveyViewController.xib */,
+			);
+			name = SurveyViewController;
+			sourceTree = "<group>";
+		};
+		6ACDF8A41AEF40A0006A13A3 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				6ACDF8B11AEF5B52006A13A3 /* Zip */,
+				6ACDF8B21AEF5B58006A13A3 /* Reachability */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		6ACDF8A71AEF41B3006A13A3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6ACDF8A81AEF41C5006A13A3 /* AnimationHelper.h */,
+				6ACDF8A91AEF41C5006A13A3 /* AnimationHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		6ACDF8AB1AEF4271006A13A3 /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				6ACDF8AC1AEF428B006A13A3 /* OfficeAnnotation.h */,
+				6ACDF8AD1AEF428B006A13A3 /* OfficeAnnotation.m */,
+			);
+			name = Annotations;
+			sourceTree = "<group>";
+		};
+		6ACDF8B11AEF5B52006A13A3 /* Zip */ = {
+			isa = PBXGroup;
+			children = (
+				6ACDF8C01AEF5B6D006A13A3 /* ZipArchive.h */,
+				6ACDF8C11AEF5B6D006A13A3 /* ZipArchive.mm */,
+				6ACDF8B31AEF5B66006A13A3 /* crypt.h */,
+				6ACDF8B41AEF5B66006A13A3 /* ioapi.c */,
+				6ACDF8B51AEF5B66006A13A3 /* ioapi.h */,
+				6ACDF8B61AEF5B66006A13A3 /* mztools.c */,
+				6ACDF8B71AEF5B66006A13A3 /* mztools.h */,
+				6ACDF8B81AEF5B66006A13A3 /* unzip.c */,
+				6ACDF8B91AEF5B66006A13A3 /* unzip.h */,
+				6ACDF8BA1AEF5B66006A13A3 /* zip.c */,
+				6ACDF8BB1AEF5B66006A13A3 /* zip.h */,
+			);
+			name = Zip;
+			sourceTree = "<group>";
+		};
+		6ACDF8B21AEF5B58006A13A3 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				6ACDF8A11AEF409C006A13A3 /* Reachability.h */,
+				6ACDF8A21AEF409C006A13A3 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		F1C20F7E54E508D3980E5E42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ACDF8C31AEF5B7C006A13A3 /* libz.1.2.5.dylib */,
+				6ACDF8AF1AEF4DA1006A13A3 /* MobileCoreServices.framework */,
+				6ACDF8A51AEF412D006A13A3 /* MapKit.framework */,
+				6ACDF89F1AEF4036006A13A3 /* SystemConfiguration.framework */,
+				DC966A6803F45EA0FB449CBF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +388,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A4234811AEF2236003D70A0 /* Build configuration list for PBXNativeTarget "PromexicoTest" */;
 			buildPhases = (
+				F0401AC23B4F555B36B04C55 /* Check Pods Manifest.lock */,
 				6A42345A1AEF2236003D70A0 /* Sources */,
 				6A42345B1AEF2236003D70A0 /* Frameworks */,
 				6A42345C1AEF2236003D70A0 /* Resources */,
+				FC8A922DAB147810BE4510BD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,7 +464,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ACDF89C1AEF326B006A13A3 /* SurveyViewController.xib in Resources */,
 				6A4234721AEF2236003D70A0 /* LaunchScreen.xib in Resources */,
+				6ACDF8971AEF317E006A13A3 /* Promexico.db in Resources */,
+				6ACDF89E1AEF38EF006A13A3 /* Localizable.strings in Resources */,
+				6A4234951AEF290A003D70A0 /* Logo_Promexico.jpg in Resources */,
 				6A42346F1AEF2236003D70A0 /* Images.xcassets in Resources */,
 				6A42348D1AEF22C5003D70A0 /* LoginViewController.xib in Resources */,
 			);
@@ -231,13 +483,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F0401AC23B4F555B36B04C55 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC8A922DAB147810BE4510BD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A42345A1AEF2236003D70A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6A4234671AEF2236003D70A0 /* AppDelegate.m in Sources */,
+				6ACDF8BC1AEF5B66006A13A3 /* ioapi.c in Sources */,
+				6A42349D1AEF29B4003D70A0 /* DatabaseConstants.m in Sources */,
 				6A4234641AEF2236003D70A0 /* main.m in Sources */,
+				6ACDF8BD1AEF5B66006A13A3 /* mztools.c in Sources */,
+				6A42349A1AEF2999003D70A0 /* SQLiteDataSource.m in Sources */,
+				6ACDF8BE1AEF5B66006A13A3 /* unzip.c in Sources */,
+				6ACDF8AE1AEF428B006A13A3 /* OfficeAnnotation.m in Sources */,
+				6ACDF8A31AEF409C006A13A3 /* Reachability.m in Sources */,
+				6ACDF8BF1AEF5B66006A13A3 /* zip.c in Sources */,
+				6A4234A11AEF29DE003D70A0 /* OfficesDataSource.m in Sources */,
+				6ACDF8C21AEF5B6D006A13A3 /* ZipArchive.mm in Sources */,
+				6ACDF8AA1AEF41C5006A13A3 /* AnimationHelper.m in Sources */,
+				6A4234A91AEF2A56003D70A0 /* PromexicoSynchronizationManager.m in Sources */,
+				6ACDF89A1AEF3257006A13A3 /* SurveyViewController.m in Sources */,
+				6A4234A61AEF2A40003D70A0 /* WSConstants.m in Sources */,
 				6A42348B1AEF22B5003D70A0 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +653,7 @@
 		};
 		6A4234821AEF2236003D70A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4F53161D333FEC857FCDD97 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -365,6 +665,7 @@
 		};
 		6A4234831AEF2236003D70A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C031E832DC29C6722AA94B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -427,6 +728,7 @@
 				6A4234831AEF2236003D70A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A4234841AEF2236003D70A0 /* Build configuration list for PBXNativeTarget "PromexicoTestTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +737,7 @@
 				6A4234861AEF2236003D70A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

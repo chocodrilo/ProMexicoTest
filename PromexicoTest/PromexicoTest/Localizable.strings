@@ -1,0 +1,47 @@
+/* 
+  Localizable.strings
+  PromexicoTest
+
+  Created by iOS developer on 4/27/15.
+  Copyright (c) 2015 Chocodrilo INC. All rights reserved.
+*/
+
+// ALERT TITLES
+"ALERT_TITLE_ERROR" = "ERROR";
+
+// ALERT MESSAGES
+"ALERT_MESSAGE_EMPTY_CREDENTIALS" = "Por favor ingrese sus credenciales para continuar";
+"ALERT_MESSAGE_NO_OFFICE_SELECTED" = "Por favor seleccione la oficina promexico para continuar";
+"ALERT_MESSAGE_NO_PERSON" = "Por favor ingrese el nombre de la persona que atendio para continuar";
+"ALERT_MESSAGE_NO_IMAGE" = "Por favor ingrese una imagen para continuar";
+
+// ALERT BUTTONS
+"ALERT_BUTTON_OK" = "OK";
+
+// BUTTON TITLES
+
+"BUTTON_TITLE_LOGIN" = "Ingresar Sesion";
+"BUTTON_TITLE_RETURN_TO_LOGIN" = "Salir";
+"BUTTON_TITLE_SAVE" = "Guardar";
+"BUTTON_TITLE_SELECT_OFFICE" = "Seleccionar oficina";
+"BUTTON_TITLE_SELECT_PICKER" = "OK";
+"BUTTON_TITLE_CLOSE_MAP" = "Cerrar";
+
+// TEXTFIELD PLACEHOLDERS
+
+"TEXTFIELD_PLACEHOLDER_USERNAME" = "Nombre de usuario";
+"TEXTFIELD_PLACEHOLDER_PASSWORD" = "Password";
+"TEXTFIELD_PLACEHOLDER_PERSON" = "Nombre completo";
+
+//LABEL VALUES
+
+"LABEL_SURVEY_TITLE" = "Ingresar encuesta";
+"LABEL_SURVEY_SELECT_OFFICE" = "Oficina Promexico:";
+"LABEL_SURVEY_PERSON" = "Persona que atendio:";
+"LABEL_SURVEY_TREATMENT" = "El trato fue bueno?";
+"LABEL_SURVEY_INFORMATION" = "La informacion fue adecuada?";
+"LABEL_SURVEY_PLACE_CLEAN" = "El lugar se encontraba limpio?";
+
+//HUD TITLE
+
+"HUD_TITLE_LOADING" = "Cargando";

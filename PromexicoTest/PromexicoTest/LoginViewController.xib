@@ -6,6 +6,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
             <connections>
+                <outlet property="loginButton" destination="YiH-T9-afa" id="mT3-2E-edP"/>
+                <outlet property="passwordTextfield" destination="rqN-Bp-KUm" id="XQK-l3-CMj"/>
+                <outlet property="userNameTextfield" destination="Vb5-Eu-FQP" id="3g3-Bw-L4k"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Z4p-9S-nUt"/>
             </connections>
         </placeholder>
@@ -13,11 +16,59 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre de usuario" textAlignment="center" minimumFontSize="17" id="Vb5-Eu-FQP">
+                    <rect key="frame" x="41" y="153" width="238" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="DOY-M1-Ovg"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" id="rqN-Bp-KUm">
+                    <rect key="frame" x="41" y="224" width="238" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="LVO-jv-Wf3"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YiH-T9-afa">
+                    <rect key="frame" x="41" y="281" width="238" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0039215686269999999" green="0.37647058820000001" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Iniciar Sesion">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="doLogin:" destination="-1" eventType="touchUpInside" id="5W1-UD-wZ4"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo_Promexico.jpg" id="I6v-d1-NJA">
+                    <rect key="frame" x="19" y="41" width="282" height="96"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="3IJ-lh-Yfj" appends="YES" id="89h-LC-iMj"/>
+            </connections>
             <point key="canvasLocation" x="272" y="377"/>
         </view>
+        <tapGestureRecognizer id="3IJ-lh-Yfj">
+            <connections>
+                <action selector="dismissTextfields:" destination="-1" id="KWE-lW-dp9"/>
+            </connections>
+        </tapGestureRecognizer>
     </objects>
+    <resources>
+        <image name="Logo_Promexico.jpg" width="2362" height="673"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

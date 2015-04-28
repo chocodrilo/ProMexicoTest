@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/iosdev/Documents/Personal/Entrevistas/Lenkenn/PrimeraPrueba/PromexicoTest/PromexicoTestTests/PromexicoTestTests.m \
+  /Users/iosdev/Documents/Personal/Entrevistas/Lenkenn/ProMexicoTest/ProMexicoTest/PromexicoTest/PromexicoTestTests/PromexicoTestTests.m \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h \

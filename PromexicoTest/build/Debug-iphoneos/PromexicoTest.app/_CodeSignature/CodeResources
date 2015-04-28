@@ -8,22 +8,38 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2yA7C3GndqIwZjxbT0W+xDikdqY=
+			btHWQb1oeQ+A3oRk78gJdSWDXIE=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Info.plist</key>
 		<data>
-		R09+p+5YOfohFfmgrQCw1RiHzCs=
+		JfPNRvhF5CNsKt5jIlxzoxcpjv4=
+		</data>
+		<key>Localizable.strings</key>
+		<data>
+		mcNc6slMQqJUPe7f3IjIz9EYGfg=
 		</data>
 		<key>LoginViewController.nib</key>
 		<data>
-		vduUegqwH1mZaarUQAIuUOx3oIk=
+		ulTzrJDJ0fWB35YCyWwMiAHOELg=
+		</data>
+		<key>Logo_Promexico.jpg</key>
+		<data>
+		Z5nRB2h/nDr7UZD7Jd8PLr3EPOM=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Promexico.db</key>
+		<data>
+		5W8wKT0e7silZAUdggsn3AnpD0Q=
+		</data>
+		<key>SurveyViewController.nib</key>
+		<data>
+		gpSmNb91LKZ8vqrfB3Kf6+UNN78=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -36,14 +52,30 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2yA7C3GndqIwZjxbT0W+xDikdqY=
+			btHWQb1oeQ+A3oRk78gJdSWDXIE=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Localizable.strings</key>
+		<data>
+		mcNc6slMQqJUPe7f3IjIz9EYGfg=
+		</data>
 		<key>LoginViewController.nib</key>
 		<data>
-		vduUegqwH1mZaarUQAIuUOx3oIk=
+		ulTzrJDJ0fWB35YCyWwMiAHOELg=
+		</data>
+		<key>Logo_Promexico.jpg</key>
+		<data>
+		Z5nRB2h/nDr7UZD7Jd8PLr3EPOM=
+		</data>
+		<key>Promexico.db</key>
+		<data>
+		5W8wKT0e7silZAUdggsn3AnpD0Q=
+		</data>
+		<key>SurveyViewController.nib</key>
+		<data>
+		gpSmNb91LKZ8vqrfB3Kf6+UNN78=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>

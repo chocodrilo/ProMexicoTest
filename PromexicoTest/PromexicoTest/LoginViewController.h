@@ -7,7 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MBProgressHUD.h"
+#import "PromexicoSynchronizationManager.h"
 
-@interface LoginViewController : UIViewController
+@interface LoginViewController : UIViewController <PromexicoSynchronizationDelegate,UITextFieldDelegate>
+{
+    IBOutlet UITextField *userNameTextfield;
+    IBOutlet UITextField *passwordTextfield;
+    
+    IBOutlet UIButton *loginButton;
+    
+    MBProgressHUD *hud;
+    PromexicoSynchronizationManager *syncManager;
+}
+
+-(IBAction)doLogin:(id)sender;
+-(IBAction)dismissTextfields:(id)sender;
 
 @end

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SurveyViewController">
+            <connections>
+                <outlet property="backButton" destination="F9Y-ay-0W2" id="Ggw-2z-uTp"/>
+                <outlet property="closeMapViewButton" destination="min-Fd-lcX" id="hAl-hc-SrN"/>
+                <outlet property="imageLabel" destination="2R7-yg-Ijl" id="B52-X5-4Yp"/>
+                <outlet property="imageView" destination="Cw5-SJ-Bsc" id="ALb-qG-vyh"/>
+                <outlet property="informationLabel" destination="qZX-Kb-QDA" id="i1M-mO-iiZ"/>
+                <outlet property="informationSegmentedControl" destination="JH2-XN-FUU" id="PUX-Vp-xW2"/>
+                <outlet property="mapComponent" destination="xV6-fY-eh4" id="XPp-OO-iJj"/>
+                <outlet property="mapContainerView" destination="UhD-5h-GfV" id="H4n-Tx-Dtp"/>
+                <outlet property="mapOverlayView" destination="vdt-vy-8Di" id="aIk-aZ-xBT"/>
+                <outlet property="mapView" destination="fdJ-6G-OWw" id="oan-3Z-rOS"/>
+                <outlet property="officeButton" destination="6o9-wu-elZ" id="kWI-jI-KJX"/>
+                <outlet property="officePickerFormView" destination="xIT-ka-Imy" id="yxr-7g-uYu"/>
+                <outlet property="officePickerOverlayView" destination="Xqj-2L-7vg" id="Z1g-Kn-9kK"/>
+                <outlet property="officePickerView" destination="r1f-I5-Nn3" id="b41-dW-fPA"/>
+                <outlet property="personLabel" destination="FoU-cb-z7L" id="Ucm-eb-thO"/>
+                <outlet property="personTextfield" destination="Sxs-AA-LSq" id="FYv-zN-goO"/>
+                <outlet property="pickerView" destination="Q9S-e5-ovG" id="Bs5-yP-who"/>
+                <outlet property="placeCleanLabel" destination="ixt-Sk-dch" id="Ao4-U5-cGa"/>
+                <outlet property="placeCleanSegmentedControl" destination="0XX-WY-ott" id="PkZ-4C-fir"/>
+                <outlet property="saveButton" destination="dbd-YG-3RG" id="zrn-eT-u63"/>
+                <outlet property="selectOfficeLabel" destination="j1e-b2-4aT" id="uwX-LS-WLW"/>
+                <outlet property="selectPickerButton" destination="LBR-Jc-gSk" id="HlV-yT-NAO"/>
+                <outlet property="titleLabel" destination="EMj-mq-h2m" id="XAW-jy-1bA"/>
+                <outlet property="treatmentLabel" destination="YEv-Gu-ZJm" id="4tR-WS-3Je"/>
+                <outlet property="treatmentSegmentedControl" destination="2di-0r-FaM" id="wFE-3W-3Kr"/>
+                <outlet property="view" destination="iN0-l3-epB" id="rhH-fN-10J"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="F9Y-ay-0W2">
+                    <rect key="frame" x="9" y="432" width="147" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" red="0.74509803919999995" green="0.20392156859999999" blue="0.066666666669999999" alpha="1" colorSpace="deviceRGB"/>
+                    <state key="normal" title="Regresar">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="returnToLogin:" destination="-1" eventType="touchUpInside" id="wkh-Gq-LkZ"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oficina Promexico:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="j1e-b2-4aT">
+                    <rect key="frame" x="10" y="84" width="127" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6o9-wu-elZ">
+                    <rect key="frame" x="143" y="80" width="168" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.4140820261" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="selectOffice:" destination="-1" eventType="touchUpInside" id="cHA-YR-zch"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Persona que atendio:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FoU-cb-z7L">
+                    <rect key="frame" x="10" y="121" width="138" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingresar Encuesta" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EMj-mq-h2m">
+                    <rect key="frame" x="72" y="21" width="177" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="El trato fue bueno?" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YEv-Gu-ZJm">
+                    <rect key="frame" x="10" y="186" width="158" height="38"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="2di-0r-FaM">
+                    <rect key="frame" x="195" y="186" width="116" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <segments>
+                        <segment title="Si"/>
+                        <segment title="No"/>
+                    </segments>
+                </segmentedControl>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La informacion fue adecuada?" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qZX-Kb-QDA">
+                    <rect key="frame" x="10" y="224" width="167" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="JH2-XN-FUU">
+                    <rect key="frame" x="195" y="233" width="116" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <segments>
+                        <segment title="Si"/>
+                        <segment title="No"/>
+                    </segments>
+                </segmentedControl>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="El lugar estaba limpio?" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ixt-Sk-dch">
+                    <rect key="frame" x="10" y="273" width="167" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" id="0XX-WY-ott">
+                    <rect key="frame" x="195" y="283" width="116" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <segments>
+                        <segment title="Si"/>
+                        <segment title="No"/>
+                    </segments>
+                </segmentedControl>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seleccionar Imagen" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2R7-yg-Ijl">
+                    <rect key="frame" x="10" y="352" width="158" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Cw5-SJ-Bsc">
+                    <rect key="frame" x="195" y="325" width="116" height="88"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="WK9-FQ-WPu" appends="YES" id="cUf-bR-ta0"/>
+                    </connections>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dbd-YG-3RG">
+                    <rect key="frame" x="164" y="432" width="147" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" red="0.0039215686269999999" green="0.37647058820000001" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Guardar">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="saveSurvey:" destination="-1" eventType="touchUpInside" id="anj-dp-7VM"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre completo" minimumFontSize="17" id="Sxs-AA-LSq">
+                    <rect key="frame" x="8" y="145" width="303" height="30"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="dD8-YV-71J"/>
+                    </connections>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="XCH-KT-QyO" appends="YES" id="jJw-f8-qqy"/>
+            </connections>
+            <point key="canvasLocation" x="211" y="354"/>
+        </view>
+        <tapGestureRecognizer id="XCH-KT-QyO">
+            <connections>
+                <action selector="dismissTextfields:" destination="-1" id="tyf-R3-tAv"/>
+            </connections>
+        </tapGestureRecognizer>
+        <view contentMode="scaleToFill" id="r1f-I5-Nn3">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.60000002384185791" contentMode="scaleToFill" id="Xqj-2L-7vg">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="x2D-i5-gAV" appends="YES" id="d6S-df-WgX"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" id="xIT-ka-Imy">
+                    <rect key="frame" x="0.0" y="361" width="320" height="208"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LBR-Jc-gSk">
+                            <rect key="frame" x="267" y="8" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="OK">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="hidePickerView:" destination="-1" eventType="touchUpInside" id="qnG-Th-an4"/>
+                            </connections>
+                        </button>
+                        <pickerView contentMode="scaleToFill" id="Q9S-e5-ovG">
+                            <rect key="frame" x="0.0" y="39" width="320" height="162"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="nat-qT-mA5"/>
+                                <outlet property="delegate" destination="-1" id="RCi-RJ-ZPV"/>
+                            </connections>
+                        </pickerView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="331" y="999"/>
+        </view>
+        <tapGestureRecognizer id="x2D-i5-gAV">
+            <connections>
+                <action selector="hidePickerView:" destination="-1" id="kl5-Ui-sAp"/>
+            </connections>
+        </tapGestureRecognizer>
+        <view contentMode="scaleToFill" id="fdJ-6G-OWw">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.60000002384185791" contentMode="scaleToFill" id="vdt-vy-8Di">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="nep-3f-1iK" appends="YES" id="EEc-ne-qhU"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" id="UhD-5h-GfV">
+                    <rect key="frame" x="0.0" y="62" width="320" height="407"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="min-Fd-lcX">
+                            <rect key="frame" x="261" y="4" width="51" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="CLOSE">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="hideMapView:" destination="-1" eventType="touchUpInside" id="3dQ-Yg-AXd"/>
+                            </connections>
+                        </button>
+                        <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="xV6-fY-eh4">
+                            <rect key="frame" x="0.0" y="36" width="325" height="371"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="ip9-86-zUl"/>
+                            </connections>
+                        </mapView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="614" y="237"/>
+        </view>
+        <tapGestureRecognizer id="nep-3f-1iK">
+            <connections>
+                <action selector="hideMapView:" destination="-1" id="FfU-lY-re7"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="WK9-FQ-WPu">
+            <connections>
+                <action selector="selectImage:" destination="-1" id="EFa-Wv-PDA"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
